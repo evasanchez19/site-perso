@@ -1,0 +1,10 @@
+h1{
+text-align: center;
+color: lightcoral;
+font-size: 4em;
+}
+
+body > header {
+    background-image: url("https://data.whicdn.com/images/323132476/original.jpg");
+    padding: 50px 0px;
+}
