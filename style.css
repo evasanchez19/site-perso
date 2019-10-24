@@ -1,14 +1,43 @@
-h1{
-text-align: center;
-color: lightcoral;
-font-size: 3em;
+html,
+body {
+    background-color: black;
 }
 
+
+h1{
+text-align: center;
+color: white;
+font-size: 5em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    text-align: center;
+}
+
+
 body > header {
-    background-image: url("https://data.whicdn.com/images/323132476/original.jpg");
+    background-image: url("https://image.freepik.com/photos-gratuite/abstrait-oiseau-blanc-plumes-flottant-dans-obscurite_36860-592.jpg");
     padding: 40px 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 h2{
     text-align: center;
-    color: black;
+    color: white;
+}
+img{
+    align-self: auto;
+    width: 280px;
+    height: 300px;
+}
+#coordonnees {
+    background-color: black;
+    color: white;
+}
+
+#coordonnees a {
+    color: white;
+}
+body {
+   display: grid; grid-template-columns: 300px 1fr;
 }
