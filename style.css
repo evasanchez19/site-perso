@@ -3,12 +3,11 @@ body {
     background-color: black;
 }
 
-
 h1{
 text-align: center;
 color: white;
 font-size: 5em;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+font-family: fantasy;
 }
 h2 {
     text-align: center;
@@ -17,18 +16,29 @@ h2 {
 
 body > header {
     background-image: url("https://image.freepik.com/photos-gratuite/abstrait-oiseau-blanc-plumes-flottant-dans-obscurite_36860-592.jpg");
-    padding: 40px 10px;
+    padding: 30px 10px;
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.icone > img {
+    width: 40px;
+    height: 40px;
+}
+
+}
+a:hover {
+    background-color:rgb(211, 102, 138);
+    color: white;
+}
+ 
 h2{
     text-align: center;
     color: white;
 }
 img{
-    align-self: auto;
-    width: 280px;
-    height: 300px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
 }
 #coordonnees {
     background-color: black;
@@ -40,4 +50,20 @@ img{
 }
 body {
    display: grid; grid-template-columns: 300px 1fr;
+}
+p.blocktext {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 16pt;
+    width: 600px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
 }
